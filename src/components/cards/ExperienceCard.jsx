@@ -127,6 +127,20 @@ const ItemWrapper = styled.div`
 `;
 
 const ExperienceCard = React.memo(({ experience }) => {
+  const logos = {
+    delhidreamin: "https://github.com/amritrajrajput/portfolio/blob/master/src/amritrajrajput%20my-assets%20main%20assets-port/experience/delhi%20dremin.png?raw=true",
+    devtown: "https://github.com/amritrajrajput/portfolio/blob/master/src/amritrajrajput%20my-assets%20main%20assets-port/experience/devtown.png?raw=true",
+    extreme: "https://github.com/amritrajrajput/portfolio/blob/master/src/amritrajrajput%20my-assets%20main%20assets-port/experience/extreme.png?raw=true",
+    gdg: "https://github.com/amritrajrajput/portfolio/blob/master/src/amritrajrajput%20my-assets%20main%20assets-port/experience/gdg.png?raw=true",
+    gfg: "https://github.com/amritrajrajput/portfolio/blob/master/src/amritrajrajput%20my-assets%20main%20assets-port/experience/gfg.png?raw=true",
+    globaltechtalk: "https://github.com/amritrajrajput/portfolio/blob/master/src/amritrajrajput%20my-assets%20main%20assets-port/experience/globaltechtalk.png?raw=true",
+    gssoc: "https://github.com/amritrajrajput/portfolio/blob/master/src/amritrajrajput%20my-assets%20main%20assets-port/experience/gssoc.png?raw=true",
+    isp: "https://github.com/amritrajrajput/portfolio/blob/master/src/amritrajrajput%20my-assets%20main%20assets-port/experience/isp.png?raw=true",
+    kotlin: "https://github.com/amritrajrajput/portfolio/blob/master/src/amritrajrajput%20my-assets%20main%20assets-port/experience/kotlin.png?raw=true",
+  };
+
+  const iconSrc = experience?.imgKey ? logos[experience.imgKey] : experience?.img;
+
   return (
     <VerticalTimelineElement
       icon={
@@ -135,11 +149,7 @@ const ExperienceCard = React.memo(({ experience }) => {
           height="100%"
           alt={experience?.company}
           style={{ borderRadius: "50%", objectFit: "cover" }}
-          src={
-            experience?.role === "Campus Representative"
-              ? "https://raw.githubusercontent.com/amritrajrajput/my-assets/main/assets-port/experience/gdg.png"
-              : experience?.img
-          }
+          src={iconSrc}
         />
       }
       contentStyle={{
@@ -152,7 +162,6 @@ const ExperienceCard = React.memo(({ experience }) => {
         backgroundColor: "rgba(17, 25, 40, 0.83)",
         border: "1px solid rgba(255, 255, 255, 0.125)",
         borderRadius: "6px",
-        // maxWidth: "100%",
         overflow: "hidden",
       }}
       contentArrowStyle={{
@@ -162,13 +171,7 @@ const ExperienceCard = React.memo(({ experience }) => {
     >
       <Top>
         <ImageWrapper>
-          <Image
-            src={
-              experience?.role === "Campus Representative"
-                ? "https://raw.githubusercontent.com/amritrajrajput/my-assets/main/assets-port/experience/gdg.png"
-                : experience?.img
-            }
-          />
+          <Image src={iconSrc} />
         </ImageWrapper>
         <Body>
           <Role>{experience?.role}</Role>
