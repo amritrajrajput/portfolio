@@ -1,10 +1,9 @@
 export const Bio = {
   name: "Amrit Raj Rajput",
   roles: [
-    "Full Stack Developer",
-    "Open Source Contributor",
-    "Campus Ambassador",
-    "Tech Community Builder",
+    "Software Developer",
+    "AI Enthusiast",
+    "Data Analyst",
   ],
   description:
     "Driven by curiosity and a passion for technology, I thrive in building full-stack applications, contributing to open-source projects, and energizing student communities. Whether it's coding, collaborating, or leading campus tech initiatives, I strive to create impact, share knowledge, and grow with every challenge. I am currently focusing on building AI-powered applications, exploring Generative AI systems, working with real-world datasets, and actively contributing to open source.",
@@ -41,11 +40,6 @@ export const skills = [
           process.env.PUBLIC_URL + "/assets-port/frontend/icons8-javascript-800.png",
       },
       {
-        name: "Bootstrap",
-        image:
-          process.env.PUBLIC_URL + "/assets-port/frontend/icons8-bootstrap-800.png",
-      },
-      {
         name: "Tailwind CSS",
         image:
           process.env.PUBLIC_URL + "/assets-port/frontend/icons8-tailwind-css-800.png",
@@ -65,15 +59,11 @@ export const skills = [
     },
     {
       name: "MongoDB",
-      image: process.env.PUBLIC_URL + "/assets-port/backend/logo_transparent_800px.png",
+      image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg",
     },
     {
       name: "REST API",
       image: process.env.PUBLIC_URL + "/assets-port/backend/api.png",
-    },
-    {
-      name: "Neo4j",
-      image: process.env.PUBLIC_URL + "/assets-port/backend/neo4j-icon.png",
     },
   ],
 }
@@ -243,7 +233,7 @@ export const experiences = [
     img: process.env.PUBLIC_URL + "/assets-port/experience/gssoc.png",
     role: "Campus Ambassador - GSSoC 2k25",
     company: "GirlScript Summer of Code",
-    date: "Jun 2025 – Present · 2 mos",
+    date: "Jun 2025 - Nov 2025 · 6 mos",
     desc: "Leading outreach for GSSoC 2025 by promoting open-source contributions on campus. Assisted peers with the application process, organized info sessions, and mentored beginners starting their open-source journey.",
     skills: ["Open Source", "Mentorship", "Community Leadership"],
   },
@@ -261,7 +251,7 @@ export const experiences = [
     img: process.env.PUBLIC_URL + "/assets-port/experience/extreme.png",
     role: "Core Member",
     company: "Galgotias Extreme Club [CSE Dept.]",
-    date: "Oct 2024 – Present · 10 mos",
+    date: "Oct 2024 - Oct 2025 · 1 yr 1 mo",
     desc: "Driving innovation across events, content, and community engagement. Helped organize technical fests, designed creative campaigns, and contributed to building a more tech-aware campus.",
     skills: ["Event Management", "Creative Strategy", "Leadership"],
   },
@@ -270,7 +260,7 @@ export const experiences = [
     img: process.env.PUBLIC_URL + "/assets-port/experience/gfg.png",
     role: "Management Team Member",
     company: "GeeksforGeeks Student Chapter – GCET",
-    date: "Feb 2024 – Present · 1 yr 6 mos",
+    date: "Feb 2024 - Oct 2025 · 1 yr 9 mos",
     desc: "Part of the core team executing workshops and coding events. Coordinated logistics, moderated sessions, and worked closely with student coordinators to ensure high-impact learning experiences.",
     skills: ["Team Management", "Event Planning", "Community"],
   },
@@ -279,13 +269,13 @@ export const experiences = [
     img: process.env.PUBLIC_URL + "/assets-port/experience/gdg.png",
     role: "Member",
     company: "Google Developer Student Club – GCET",
-    date: "Dec 2023 – Present · 1 yr 8 mos",
+    date: "Dec 2023 - Oct 2025 · 1 yr 11 mos",
     desc: "Actively engaged in tech sessions, hackathons, and speaker series. Gained exposure to real-world tech applications and expanded network through peer collaborations.",
     skills: ["Hackathons", "Tech Talks", "Networking"],
   },
   {
     id: 5,
-    img: process.env.PUBLIC_URL + "/assets-port/experience/extreme.png",
+    img: process.env.PUBLIC_URL + "/assets-port/experience/gdg.png",
     role: "Campus Representative",
     company: "Innova 2024 – GCET",
     date: "Nov 2024 – Dec 2024 · 2 mos",
@@ -344,7 +334,7 @@ export const education = [
     id: 0,
     img: process.env.PUBLIC_URL + "/assets-port/education/galgotia.png",
     school: "Galgotias College of Engineering and Technology, Greater Noida",
-    date: "Nov 2023 - Jun 2027",
+    date: "Nov 2023 - Present",
     grade: "",
     desc: "Currently pursuing a Bachelor of Technology (B.Tech) in Computer Science and Engineering with a specialization in Data Science. Coursework includes Data Structures and Algorithms, Object-Oriented Programming, Java, Python, and Full Stack Web Development. Actively involved in student communities such as Google Developer Student Clubs (GDSC GCET) and Extreme Club, where I contribute to hackathons, tech sessions, and collaborative projects.",
     degree: "Bachelor of Technology - B.Tech, CSE (Data Science)",
