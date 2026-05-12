@@ -92,7 +92,7 @@ const CardContainer = styled.div`
 `;
 
 const Projects = React.memo(() => {
-  const [toggle, setToggle] = useState("all");
+  const [toggle, setToggle] = useState("web app");
   return (
     <Container id="Projects">
       <Wrapper>
@@ -106,13 +106,6 @@ const Projects = React.memo(() => {
         </Desc>
 
         <ToggleButtonGroup>
-          <ToggleButton
-            active={toggle === "all"}
-            onClick={() => setToggle("all")}
-          >
-            ALL
-          </ToggleButton>
-          <Divider />
           <ToggleButton
             active={toggle === "web app"}
             onClick={() => setToggle("web app")}
@@ -136,10 +129,6 @@ const Projects = React.memo(() => {
         </ToggleButtonGroup>
 
         <CardContainer>
-          {toggle === "all" &&
-            projects.map((project, index) => (
-              <ProjectCard key={`project-${index}`} project={project} />
-            ))}
           {projects
             .filter((item) => item.category === toggle)
             .map((project, index) => (

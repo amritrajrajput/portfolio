@@ -444,7 +444,7 @@ export const projects = [
       "LangChain",
       "Gemini AI"
     ],
-    category: "machine learning",
+    category: "ai agents",
     github: "https://github.com/amritrajrajput/Navigo-Bharat-AI-Agent",
     webapp: "",
     member: [],
@@ -464,8 +464,28 @@ export const projects = [
       "Gemini API",
       "Agentic AI"
     ],
-    category: "machine learning",
+    category: "ai agents",
     github: "https://github.com/amritrajrajput/railstay-ai",
+    webapp: "",
+    member: [],
+  },
+  {
+    id: 5,
+    title: "Algerian Forest Fires Prediction 🌲",
+    date: "2024",
+    description:
+      "A Machine Learning project that analyzes and predicts forest fire occurrences in Algeria based on meteorological and environmental data. It uses multiple regression techniques to identify critical factors influencing forest fires and provides a deployable Flask web application for real-time prediction.",
+    image: "https://img.freepik.com/free-vector/forest-fire-concept-illustration_114360-6421.jpg?w=826&t=st=170845345~exp=170845405~hmac=a40498b826e7a221f1d1dc0f49cb8199b0c8b",
+    tags: [
+      "Machine Learning",
+      "Python",
+      "Flask",
+      "Regression",
+      "Data Analysis",
+      "Predictive Modeling"
+    ],
+    category: "machine learning",
+    github: "https://github.com/amritrajrajput/testforestfires",
     webapp: "",
     member: [],
   }
