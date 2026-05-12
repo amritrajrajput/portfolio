@@ -381,7 +381,7 @@ export const projects = [
       "direct commerce"
     ],
     category: "web app",
-    github: "",
+    github: "https://github.com/amritrajrajput/kissan-mitra",
     webapp: "",
     member: [],
   },
@@ -427,8 +427,8 @@ export const projects = [
       "resume"
     ],
     category: "web app",
-    github: "",
-    webapp: "",
+    github: "https://github.com/amritrajrajput/portfolio",
+    webapp: "https://amritrajrajput.github.io/portfolio",
     member: [],
   },
   {
