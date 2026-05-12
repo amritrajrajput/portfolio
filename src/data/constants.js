@@ -445,7 +445,27 @@ export const projects = [
       "Gemini AI"
     ],
     category: "machine learning",
-    github: "",
+    github: "https://github.com/amritrajrajput/Navigo-Bharat-AI-Agent",
+    webapp: "",
+    member: [],
+  },
+  {
+    id: 4,
+    title: "RailStay AI – Smart Retiring Room Finder 🚆",
+    date: "May 2026 - Present",
+    description:
+      "An intelligent, agentic AI system that automates searching and ranking IRCTC retiring rooms. Built with LangGraph, Playwright, and Google's Gemini API, it dynamically plans searches, executes headless scraping in parallel, and ranks results based on user preferences.",
+    image: "https://img.freepik.com/free-vector/train-station-concept-illustration_114360-15555.jpg",
+    tags: [
+      "Python",
+      "Streamlit",
+      "LangGraph",
+      "Playwright",
+      "Gemini API",
+      "Agentic AI"
+    ],
+    category: "machine learning",
+    github: "https://github.com/amritrajrajput/railstay-ai",
     webapp: "",
     member: [],
   }
